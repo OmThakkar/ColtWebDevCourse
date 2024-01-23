@@ -1,0 +1,54 @@
+h1:nth-of-type(n){
+    background-color: blueviolet;
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h1:nth-of-type(2n){
+    background-color: plum;
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h1:nth-of-type(3n){
+    background-color: powderblue;
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h1:nth-of-type(4n){
+    background-color: salmon;
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+section:first-of-type h1:nth-child(1){
+    transform-origin: top right;
+    transform: rotate(-15deg);
+}
+section:first-of-type h1:nth-child(2){
+    transform: scale(.7);
+}
+section:first-of-type h1:nth-child(3){
+    transform: skew(10deg, 12deg);
+}
+section:first-of-type h1:nth-child(4){
+    transform: translate(-200px, -50px);
+}
+
+section:nth-of-type(2){
+    transform: rotate(45deg) translate(-15px, 180px) scale(1.2);
+}
+
